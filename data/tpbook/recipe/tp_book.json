@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EPE",
+    "EBE",
+    "ECE"
+  ],
+  "key": {
+    "E": "minecraft:end_stone",
+    "P": "minecraft:ender_pearl",
+    "B": "minecraft:book",
+    "C": "minecraft:compass"
+  },
+  "result": {
+    "id": "minecraft:written_book",
+    "components": {
+      "minecraft:written_book_content": {
+        "title": "Teleport Menu",
+        "author": "DSowa Masakra",
+        "resolved": true
+      },
+      "minecraft:custom_data": {
+        "tpbook": 1
+      },
+      "minecraft:item_model": "minecraft:eye_armor_trim_smithing_template"
+    },
+    "count": 1
+  }
+}

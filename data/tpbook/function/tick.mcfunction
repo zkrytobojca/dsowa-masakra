@@ -1,5 +1,3 @@
-scoreboard players enable @a tp_book_give
-
 # open menu command
 execute as @a[scores={tp_book_give=1..}] run function tpbook:book_give
 scoreboard players set @a[scores={tp_book_give=1..}] tp_book_give 0
