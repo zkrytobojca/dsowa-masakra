@@ -12,6 +12,6 @@ $data modify storage tpbook:menu pages[-1] append value \
     }]},\
     "click_event":{\
       "action":"run_command",\
-      "command":"tp @s $(name)"\
+      "command":"trigger tp_to_$(name)"\
     }\
 }

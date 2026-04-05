@@ -1,0 +1,2 @@
+execute as @e[tag=player_name,type=minecraft:item_display] run function tpbook:enable_tp_trigger with entity @s item.components."minecraft:profile"
+execute as @e[tag=player_name,type=minecraft:item_display] run function tpbook:check_if_player_is_teleported_to with entity @s item.components."minecraft:profile"

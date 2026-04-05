@@ -1,1 +1,1 @@
-$tp @s $(target)
+$tp @s $(name)

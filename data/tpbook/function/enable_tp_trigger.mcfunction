@@ -1,0 +1,1 @@
+$scoreboard players enable @a tp_to_$(name)

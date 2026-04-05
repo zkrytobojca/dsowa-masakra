@@ -1,0 +1,1 @@
+$scoreboard objectives remove tp_to_$(name)

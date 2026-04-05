@@ -1,0 +1,1 @@
+$scoreboard objectives add tp_to_$(name) trigger
